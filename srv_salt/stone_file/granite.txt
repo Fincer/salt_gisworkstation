@@ -1,0 +1,1 @@
+Earth has many stones: some of it is rubble, some more worthy. You can pick up a stone and you will always get {{ salt['pillar.get']('mysterystone','worthless sand and dust which does not look like anything to me') }}.
