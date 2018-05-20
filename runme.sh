@@ -82,7 +82,7 @@ function checkCommands() {
             fi
         done
 
-        if [[ -n $COMMANDS_NOTFOUND ]]; then
+        if [[ -v COMMANDS_NOTFOUND ]]; then
             echo -e "\n${bash_red}Error:${bash_color_default} The following commands could not be found: ${COMMANDS_NOTFOUND[*]}\nAborting\n"
             exit 1
         fi
