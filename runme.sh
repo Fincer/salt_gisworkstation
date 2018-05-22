@@ -67,6 +67,12 @@ function checkRoot() {
 checkRoot
 
 ###########################################################
+# Colors
+
+bash_red='\e[91m'
+bash_color_default='\e[0m'
+
+###########################################################
 # Check for command dependencies
 
 function checkCommands() {
