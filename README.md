@@ -32,6 +32,12 @@ sudo bash runme.sh
 
 ```
 
+## Module test-run analysis report
+
+**NOTE:** Only in Finnish at the moment.
+
+About findings, issues and deeper analysis of test-run of this SaltStack module, take a look on detailed report [here](https://github.com/Fincer/central-management-of-multiple-servers/blob/master/exercises/module.md).
+
 ## Notes!
 
 - Works currently only on the following environments:
